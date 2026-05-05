@@ -108,7 +108,7 @@ The project uses the freely available NASA C-MAPSS Turbofan Engine Degradation S
 Create the following directory structure:
 
 ```
-predictive_maintenance_project/
+smart-manufacturing-predictive-maintenance-system/
 ├── data/
 │   ├── raw/
 │   │   ├── train_FD001.txt
@@ -149,7 +149,7 @@ for f in required_files:
 ## Project Structure
 
 ```
-predictive_maintenance_project/
+smart-manufacturing-predictive-maintenance-system/
 │
 ├── app.py                          # Streamlit dashboard (main interactive app)
 ├── config.py                       # Configuration and hyperparameters
@@ -836,23 +836,13 @@ print(f"Device: {DEVICE}")
 
 ## License
 
-This project is provided for educational and industrial engineering portfolio purposes.
+This project is provided for educational purposes.
 
 ---
 
 ## Author
 
-Created for the Smart Manufacturing & Predictive Maintenance Portfolio
-Industrial Engineering & Management
-
----
-
-## Support & Contact
-
-For questions or issues:
-1. Check the Troubleshooting section
-2. Review code comments
-3. Check generated logs in `outputs/`
+Max Ally W. THERSEIAS
 
 ---
 
