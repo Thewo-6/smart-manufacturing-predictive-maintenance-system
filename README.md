@@ -786,29 +786,6 @@ print(f"Device: {DEVICE}")
 
 ---
 
-## Future Improvements
-
-### Short-term (Next 1-2 weeks)
-- [ ] Add uncertainty quantification (confidence intervals)
-- [ ] Implement regression to ranking conversion
-- [ ] Add data augmentation techniques
-- [ ] Create cross-validation pipeline
-
-### Medium-term (1-3 months)
-- [ ] Add explainability (SHAP, attention visualization)
-- [ ] Implement multi-task learning (predict RUL + failure mode)
-- [ ] Add active learning for data selection
-- [ ] Create production deployment pipeline (Docker, K8s)
-
-### Long-term (3+ months)
-- [ ] Federated learning for privacy-preserving training
-- [ ] Transfer learning from other datasets
-- [ ] Real-time streaming predictions
-- [ ] Integration with CMMS (Computerized Maintenance Management System)
-- [ ] Mobile app for field technicians
-
----
-
 ## References
 
 ### Papers & Resources
