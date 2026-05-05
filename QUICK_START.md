@@ -200,41 +200,11 @@ Then retrain for new results.
 
 ---
 
-## Expected Results
-
-**After training for 50 epochs:**
-
-```
-LSTM Model:
-- MAE: ~13 cycles
-- RMSE: ~19 cycles
-- R²: ~0.87
-- NASA Score: ~2200
-
-Transformer Model:
-- MAE: ~12 cycles
-- RMSE: ~18 cycles
-- R²: ~0.88
-- NASA Score: ~2000
-```
-
 **Actual results depend on:**
 - Dataset variant (FD001/FD002/FD003/FD004)
 - Number of training epochs
 - Hardware (GPU much faster than CPU)
 - Hyperparameter choices
-
----
-
-## Troubleshooting
-
-| Problem | Solution |
-|---------|----------|
-| `ModuleNotFoundError` | Run `pip install -r requirements.txt` |
-| `FileNotFoundError` dataset | Download NASA data to `data/raw/` |
-| `CUDA out of memory` | Reduce `BATCH_SIZE` in config.py |
-| `Model checkpoint not found` | Train first: `python run.py train` |
-| Slow training | Use GPU or reduce dataset size |
 
 ---
 
@@ -245,53 +215,6 @@ Transformer Model:
 3. **Deploy:** Use `run.py` in production scripts
 4. **Visualize:** Check `outputs/figures/` for plots
 5. **Read full docs:** See `README.md` for complete guide
-
----
-
-## Command Cheat Sheet
-
-```bash
-# Setup
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-# Preprocess
-python -c "from src.data_preprocessing import preprocess_dataset; preprocess_dataset('FD001', reload=True)"
-
-# Train
-python run.py train --model lstm
-python run.py train --model transformer
-python run.py train --model both --epochs 100
-
-# Evaluate
-python run.py evaluate
-
-# Predict
-python run.py predict
-
-# Dashboard
-streamlit run app.py
-
-# Full pipeline
-python run.py all --epochs 50
-```
-
----
-
-## Tips for Best Results
-
-✓ **Do:**
-- Use GPU if available (5-10x faster)
-- Train for at least 50 epochs
-- Use full dataset (FD001)
-- Monitor loss curves
-
-✗ **Don't:**
-- Train on CPU for production
-- Use too small batch size (< 16)
-- Stop training too early
-- Modify code in src/ unless you know Python
 
 ---
 
