@@ -7,8 +7,8 @@ This is a complete, production-ready machine learning system that predicts the *
 ### Key Features
 
 ✅ **Two Advanced Deep Learning Models:**
-- **LSTM (Long Short-Term Memory)** - Excellent for sequential data patterns
-- **Transformer Encoder** - State-of-the-art attention mechanism for superior performance
+- **LSTM (Long Short-Term Memory)** 
+- **Transformer Encoder**
 
 ✅ **Comprehensive Evaluation Framework:**
 - MAE (Mean Absolute Error)
