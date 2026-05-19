@@ -99,7 +99,7 @@ The project uses the freely available NASA C-MAPSS Turbofan Engine Degradation S
 
 1. Visit: https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/
 2. Click "Turbofan Engine Degradation Simulation Data Set"
-3. Download the ZIP file (approximately 200MB)
+3. Download the ZIP file
 4. Extract the downloaded file
 
 #### Step 2: Organize Files
@@ -818,7 +818,7 @@ This project is provided for educational purposes.
 
 ## Author
 
-Max Ally W. THERSEIAS
+Max Ally W. THERESIAS
 
 ---
 
