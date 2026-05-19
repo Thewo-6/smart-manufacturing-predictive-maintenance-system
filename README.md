@@ -44,7 +44,6 @@ This is a complete, production-ready machine learning system that predicts the *
 7. [Evaluation & Results](#evaluation--results)
 8. [Dashboard Usage](#dashboard-usage)
 9. [Advanced Topics](#advanced-topics)
-10. [Future Improvements](#future-improvements)
 
 ---
 
